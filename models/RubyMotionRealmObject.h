@@ -21,7 +21,6 @@ RLM_ARRAY_TYPE(StringObject);
 @property long          longProp;
 @property StringObject *objectProp;
 
-// FIXME: Support array properties in RubyMotion
-// @property RLMArray<StringObject> *arrayProp;
+@property RLMArray<StringObject> *arrayProp;
 
 @end
