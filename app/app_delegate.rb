@@ -20,7 +20,6 @@ class AppDelegate
     stringObj.stringProp = "xyz"
     obj.objectProp = stringObj
 
-    # Array properties are not yet supported in RubyMotion
     obj.arrayProp.addObject(stringObj)
 
     realm.addObject(obj)
